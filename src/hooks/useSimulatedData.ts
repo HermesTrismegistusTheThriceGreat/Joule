@@ -145,7 +145,6 @@ export const useSimulatedData = () => {
       voltage: newVoltage,
       frequency: newFrequency,
       temperature: newTemperature,
-      timestamp,
     };
     addTelemetryPoint(dataPoint);
 

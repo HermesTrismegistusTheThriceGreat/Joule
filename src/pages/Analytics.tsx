@@ -42,7 +42,7 @@ const generateHistoricalData = () => {
   return data;
 };
 
-const modeDistribution = [
+const _modeDistribution = [
   { name: 'Discharging', value: 45, color: '#0066FF' },
   { name: 'Charging', value: 35, color: '#00C853' },
   { name: 'Standby', value: 18, color: '#78909C' },

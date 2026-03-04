@@ -114,7 +114,7 @@ const QuickActions = () => {
       </div>
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        {actions.map((action, index) => (
+        {actions.map((action) => (
           <button
             key={action.id}
             onClick={action.action}
